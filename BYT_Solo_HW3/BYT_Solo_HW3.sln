@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT_Solo_HW3", "BYT_Solo_HW3\BYT_Solo_HW3.csproj", "{FE1EDB21-336B-4955-A2D3-2CD83D84EB64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT_HW3_Task1", "BYT_HW3_Task1\BYT_HW3_Task1.csproj", "{FE1EDB21-336B-4955-A2D3-2CD83D84EB64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
