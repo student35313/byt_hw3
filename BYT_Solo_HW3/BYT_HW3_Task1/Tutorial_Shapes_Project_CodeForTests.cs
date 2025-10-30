@@ -2,6 +2,7 @@ using BYT_HW3_Task1;
 
 namespace BYT_Solo_HW3
 {
+    [TestFixture]
     public class Tests
     {
         [Test]

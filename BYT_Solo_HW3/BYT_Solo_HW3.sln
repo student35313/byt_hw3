@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT_HW3_Task1", "BYT_HW3_Task1\BYT_HW3_Task1.csproj", "{FE1EDB21-336B-4955-A2D3-2CD83D84EB64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT_HW3_Task2", "BYT_HW3_Task2\BYT_HW3_Task2.csproj", "{B1C92DA5-6426-497F-B6C5-55DB3BE273D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{FE1EDB21-336B-4955-A2D3-2CD83D84EB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE1EDB21-336B-4955-A2D3-2CD83D84EB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE1EDB21-336B-4955-A2D3-2CD83D84EB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C92DA5-6426-497F-B6C5-55DB3BE273D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C92DA5-6426-497F-B6C5-55DB3BE273D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C92DA5-6426-497F-B6C5-55DB3BE273D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C92DA5-6426-497F-B6C5-55DB3BE273D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
