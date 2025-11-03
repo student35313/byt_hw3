@@ -1,8 +1,5 @@
 using BYT_HW3_Task2;
 
-
-Console.WriteLine("--- Calculator Demonstration ---");
-
 Calculator calc1 = new Calculator(20, 10, '+');
 Console.WriteLine($"Calculation 1 (Add): 20 + 10 = {calc1.Calculate()}");
 
@@ -20,5 +17,3 @@ Console.WriteLine($"Calculation 5 (Negatives): -10 / -5 = {calc5.Calculate()}");
 
 Calculator calc6 = new Calculator(5, 2, '/');
 Console.WriteLine($"Calculation 6 (Remainder): 5 / 2 = {calc6.Calculate()}");
-
-Console.WriteLine("\n--- Demonstration Complete ---");
