@@ -1,40 +1,17 @@
 namespace BYT_HW3_Task2;
 
-public class Calculator
+public class Calculator(double a, double b, char operation)
 {
-    private readonly double _a;
-    private readonly double _b;
-    private readonly char _operation;
-
-    public Calculator(double a, double b, char operation)
-    {
-        _a = a;
-        _b = b;
-        _operation = operation;
-    }
-
     public double Calculate()
     {
-        double result;
-
-        switch (_operation)
+        double result = operation switch
         {
-            case '+':
-                result = _a + _b;
-                break;
-            case '-':
-                result = _a - _b;
-                break;
-            case '*':
-                result = _a * _b;
-                break;
-            case '/':
-                if (_b == 0) throw new DivideByZeroException("Error: Cannot divide by zero.");
-                result = _a / _b;
-                break;
-            default:
-                throw new InvalidOperationException($"Error: Unsupported operation '{_operation}'.");
-        }
+            '+' => a + b,
+            '-' => a - b,
+            '*' => a * b,
+            '/' => b == 0 ? throw new DivideByZeroException("Error: Cannot divide by zero.") : a / b,
+            _ => throw new InvalidOperationException($"Error: Unsupported operation '{operation}'.")
+        };
 
         if (double.IsInfinity(result))
             throw new OverflowException("Error: Calculation resulted in an overflow (Infinity).");
